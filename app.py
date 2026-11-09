@@ -4,6 +4,13 @@ import json
 from datetime import date, timedelta
 
 import streamlit as st
+import os
+
+try:
+    if "GROQ_API_KEY" in st.secrets:
+        os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+except Exception:
+    pass  # running locally without a secrets file; the .env file is used instead
 
 from agent import plan_trip
 from travel_tools import AVAILABLE_CITIES, PLACE_TYPES
