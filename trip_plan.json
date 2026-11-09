@@ -1,0 +1,96 @@
+{
+  "trip_summary": "2‑night trip to Goa (12‑14 Nov 2026) with cheapest flights, 5‑star budget hotel, forts and museums, total cost 15,701 INR.",
+  "flight": {
+    "outbound": {
+      "airline": "SpiceJet",
+      "flight_id": "FL0024",
+      "departure_time": "14:38",
+      "arrival_time": "18:38",
+      "price": 3304
+    },
+    "return": {
+      "airline": "Air India",
+      "flight_id": "FL0025",
+      "departure_time": "16:40",
+      "arrival_time": "20:40",
+      "price": 7533
+    }
+  },
+  "hotel": {
+    "hotel_id": "HOT0014",
+    "name": "Royal Heritage",
+    "stars": 5,
+    "price_per_night": 1232,
+    "nights": 2,
+    "total_price": 2464
+  },
+  "itinerary": [
+    {
+      "date": "2026-11-12",
+      "weather": "Overcast, max 35.7°C, min 19.9°C",
+      "activities": [
+        "18:38 Arrive Goa (flight FL0024)",
+        "19:15 Transfer to hotel, check‑in",
+        "20:00 Dinner",
+        "Evening free"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "weather": "Clear sky, max 35.6°C, min 19.3°C",
+      "activities": [
+        "08:30 Breakfast at hotel",
+        "09:30 Visit Beautiful Park (fort)",
+        "12:30 Lunch",
+        "14:00 Visit Famous Park (museum)",
+        "16:30 Optional Historic Park (fort)",
+        "19:00 Dinner"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "weather": "Overcast, max 35.7°C, min 20.0°C",
+      "activities": [
+        "08:00 Breakfast, check‑out",
+        "09:00 Visit Popular Lake (museum‑type)",
+        "11:30 Return to hotel, collect luggage",
+        "12:00 Light lunch",
+        "12:30 Transfer to airport",
+        "13:40 Arrive airport",
+        "16:40 Depart Goa (flight FL0025)"
+      ]
+    }
+  ],
+  "weather": [
+    {
+      "date": "2026-11-12",
+      "max_temp_c": 35.7,
+      "min_temp_c": 19.9,
+      "condition": "Overcast",
+      "rain_chance_percent": 0
+    },
+    {
+      "date": "2026-11-13",
+      "max_temp_c": 35.6,
+      "min_temp_c": 19.3,
+      "condition": "Clear sky",
+      "rain_chance_percent": 0
+    },
+    {
+      "date": "2026-11-14",
+      "max_temp_c": 35.7,
+      "min_temp_c": 20.0,
+      "condition": "Overcast",
+      "rain_chance_percent": 2
+    }
+  ],
+  "budget": {
+    "flight": 10837,
+    "hotel": 2464,
+    "food_and_local_travel": 2400,
+    "total": 15701,
+    "budget_limit": 25000,
+    "remaining": 9299
+  },
+  "reasoning": "Cheapest flights were selected per user priority. Royal Heritage gives 5‑star comfort at the lowest price among high‑rated hotels, keeping overall cost low. All forts and museums from the places list are included, arranged to match weather conditions and arrival/departure times. The estimated total (15,701 INR) stays well under the 25,000 INR budget, providing a comfortable margin for extra spending."
+}
